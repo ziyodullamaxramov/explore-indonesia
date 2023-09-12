@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+  width: 1899px;
+  height: 100vh;
+  background-image: url(../diego-gutierrez-NRn5rrBnH8w-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container .logo {
+  position: absolute;
+  width: 185.1px;
+  height: 68.75px;
+  top: 28px;
+  left: 28.01px;
+}
+.container nav {
+  position: absolute;
+  width: 1502.78px;
+  height: 33px;
+  top: 38px;
+  left: 277.14px;
+}
+.container nav .ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.container nav .ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 25px;
+}
+.container nav .ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.container nav .ul li a:hover {
+  color: black;
+  transition: all 0.4s;
+}
+.container nav .ul i {
+  color: white;
+  margin-left: 25px;
+}
+.container nav .ul i:hover {
+  color: black;
+  transition: all 0.4s;
+}
+.container .gradientred {
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  background-color: #DD2242;
+  top: 233.0006713867px;
+  left: 70.0363769531px;
+}
+.container .gradientwhite {
+  position: absolute;
+  width: 2.0010416508px;
+  height: 296px;
+  top: 329.0006713867px;
+  left: 71.0368652344px;
+  background-color: white;
+}
+.container h1 {
+  position: absolute;
+  width: 627.3265380859px;
+  height: 260px;
+  top: 266.0006713867px;
+  left: 277.1440429688px;
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 130px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  text-shadow: 1px 1px 20px black;
+}
+.container button {
+  position: absolute;
+  width: 260.14px;
+  height: 82px;
+  top: 540.0006713867px;
+  left: 287.1440429688px;
+  padding: 20px;
+  border-radius: 211px;
+  gap: 10px;
+  background-color: #DD2242;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+.container .null {
+  position: absolute;
+  display: inline-block;
+  width: 17px;
+  height: 21.0109367371px;
+  top: 640.0006713867px;
+  left: 65.0336914063px;
+  transform: rotate(270deg);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.container .fb {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 131px;
+  height: 21.0109367371px;
+  top: 815.9979248047px;
+  left: 8.0336914063px;
+  color: white;
+  transform: rotate(270deg);
+}
+.container .title {
+  position: absolute;
+  width: 1230.6380615234px;
+  height: 210px;
+  top: 715.0004882813px;
+  left: 285.7823486328px;
+  visibility: 60%;
+  opacity: 0.6000000238px;
+  background-color: black;
+  opacity: 60%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.container .title p {
+  color: #fff;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+.container .title h2 {
+  color: #fff;
+}
+.container .title .birinchi {
+  color: red;
+  font-weight: 800;
+}
+.container .title .bir, .container .title .ikki, .container .title .uch {
+  margin: 45px;
+}
+.container .video {
+  position: absolute;
+  width: 395.9171936035px;
+  height: 270px;
+  top: 655.0004882813px;
+  left: 1502.7823486328px;
+}
+.container .yumaloq {
+  position: relative;
+  background-color: #fff;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 1670px;
+  top: 750px;
+}
+.container .yumaloq .uchburchak {
+  width: 70px;
+}
+
+main {
+  background-color: black;
+}
+main .div1 {
+  position: relative;
+  width: 1899px;
+  height: 700px;
+}
+main .div1 .rasm1 {
+  width: 1899px;
+  height: 700px;
+  object-fit: cover;
+  opacity: 10%;
+  position: absolute;
+}
+main .div1 .txt1 {
+  display: inline-block;
+  position: absolute;
+  width: 450px;
+  left: 1020px;
+  top: 300px;
+  word-spacing: 5px;
+  line-height: 25px;
+}
+main .div1 .txt1 h2 {
+  color: #fff;
+}
+main .div1 .txt1 p {
+  color: #fff;
+}
+main .div1 .txt1 button {
+  background-color: #DD2242;
+  border: none;
+  color: #fff;
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+}
+main .div1 span > img {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  left: 320px;
+  top: 160px;
+}
+main .div2 {
+  position: relative;
+  width: 1899px;
+  height: 700px;
+}
+main .div2 .rasm2 {
+  width: 1899px;
+  height: 700px;
+  object-fit: cover;
+  opacity: 10%;
+  position: absolute;
+}
+main .div2 .txt2 {
+  position: absolute;
+  display: inline-block;
+  width: 450px;
+  left: 350px;
+  top: 300px;
+  word-spacing: 5px;
+  line-height: 25px;
+}
+main .div2 .txt2 h2 {
+  color: #fff;
+}
+main .div2 .txt2 p {
+  color: #fff;
+}
+main .div2 .txt2 button {
+  background-color: #DD2242;
+  border: none;
+  color: #fff;
+  width: 180px;
+  height: 50px;
+  border-radius: 50px;
+}
+main .div2 span > img {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  left: 1020px;
+  top: 160px;
+}
+
+aside > img {
+  width: 1899px;
+}
+
+aside {
+  position: relative;
+}
+aside .qora {
+  position: absolute;
+  width: 1899px;
+  height: 700px;
+  background-color: black;
+  opacity: 90%;
+  top: 1480px;
+}
+aside .explore {
+  position: absolute;
+  width: 900px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  top: 180px;
+  left: 300px;
+}
+aside .explore img {
+  margin: 15px;
+}
+aside .explore h1 {
+  position: absolute;
+  top: -90px;
+  left: 450px;
+  font-size: 40px;
+  word-spacing: 7px;
+}
+
+/*# sourceMappingURL=style.css.map */
