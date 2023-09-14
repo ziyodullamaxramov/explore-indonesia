@@ -241,3 +241,23 @@ aside{
         top: 1050px;
     }
 }
+
+.photo{
+    width: 1899px;
+    height: 1000px;
+    position: relative;
+    .phototxt{
+        width: 500px;
+        position: absolute;
+        left: 740px;
+        top: 100px;
+        text-align: center;
+        line-height: 26px;
+    }
+    .images{
+        position: absolute;
+        width: 800px;
+        top: 300px;
+        left: 565px;
+    }
+}
