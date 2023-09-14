@@ -143,6 +143,7 @@
   color: #fff;
   letter-spacing: 2px;
   word-spacing: 5px;
+  line-height: 26px;
 }
 .container .title h2 {
   color: #fff;
@@ -280,6 +281,42 @@ aside .qora {
   opacity: 90%;
   top: 1480px;
 }
+aside .qora .text1 {
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  left: 700px;
+  top: 150px;
+}
+aside .qora .text1 h2 {
+  color: #fff;
+  font-size: 60px;
+}
+aside .qora .text1 p {
+  color: #fff;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  line-height: 26px;
+}
+aside .qora .textcontainer {
+  position: absolute;
+  top: 400px;
+  left: 450px;
+  display: flex;
+  justify-content: space-around;
+}
+aside .qora .textcontainer .text2, aside .qora .textcontainer .text3, aside .qora .textcontainer .text4 {
+  width: 300px;
+  text-align: center;
+  margin: 20px;
+}
+aside .qora .textcontainer h2 {
+  color: #DD2242;
+}
+aside .qora .textcontainer p {
+  color: #fff;
+  line-height: 27px;
+}
 aside .explore {
   position: absolute;
   width: 900px;
@@ -298,6 +335,17 @@ aside .explore h1 {
   left: 450px;
   font-size: 40px;
   word-spacing: 7px;
+}
+aside .explore .loading {
+  position: absolute;
+  left: 530px;
+  top: 300px;
+}
+aside .explore .strelka {
+  position: absolute;
+  left: -160px;
+  width: 1600px;
+  top: 110px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -109,6 +109,42 @@ aside{
         background-color: black;
         opacity: 90%;
         top: 1480px;
+        .text1{
+            position: absolute;
+            width: 500px;
+            text-align: center;
+            left: 700px;
+            top: 150px;
+            h2{
+                color: #fff;
+                font-size: 60px;
+            }
+            p{
+                color: #fff;
+                letter-spacing: 2px;
+                word-spacing: 4px;
+                line-height: 26px;
+            }
+        }
+        .textcontainer{
+            position: absolute;
+            top: 400px;
+            left: 450px;
+            display: flex;
+            justify-content:space-around;
+            .text2, .text3, .text4{
+                width: 300px;
+                text-align: center;
+                margin: 20px;
+            }
+            h2{
+                color: #DD2242;
+            }
+            p{
+                color: #fff;
+                line-height: 27px;
+            }
+        }
     }
     .explore{
         position: absolute;
@@ -131,6 +167,17 @@ aside{
             
             font-size: 40px;
             word-spacing: 7px;
+        }
+        .loading{
+        position: absolute;
+        left: 530px;
+        top: 300px;
+        }
+        .strelka{
+            position: absolute;
+            left: -160px;
+            width: 1600px;
+            top: 110px;
         }
     }
 }
