@@ -271,7 +271,7 @@ aside{
 .blue{
     position: relative;
     width: 1899px;
-    height: 1200px;
+    height: 1100px;
     background-color: #DCE8F2;
     h2{
         font-size: 45px;
@@ -361,4 +361,52 @@ aside{
 
     }
     
+}
+
+footer{
+    width: 1899px;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    .ind{
+        position: absolute;
+        top: 40px;
+        left: 70px;
+        width: 200px;
+    }
+    ul{
+        position: absolute;
+        left: 400px;
+        top: 60px;
+        li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px;
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    
+    }
+    .icon{
+        position: absolute;
+        right: 400px;
+        top: 70px;
+        i{
+            
+            color: #fff;
+            margin: 0 20px;
+        }
+        p{
+            display: inline-block;
+            word-spacing: 5px;
+            color: #fff;
+        }
+    }
+    .qizil{
+        position: absolute;
+        right: 70px;
+        top: -55px;
+    }
 }

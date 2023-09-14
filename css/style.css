@@ -436,7 +436,7 @@ aside .explore .strelka {
 .blue {
   position: relative;
   width: 1899px;
-  height: 1200px;
+  height: 1100px;
   background-color: #DCE8F2;
 }
 .blue h2 {
@@ -524,6 +524,52 @@ aside .explore .strelka {
   width: 3px;
   height: 600px;
   background: rgba(21, 20, 57, 0.4);
+}
+
+footer {
+  width: 1899px;
+  height: 150px;
+  background-color: black;
+  position: relative;
+}
+footer .ind {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+  width: 200px;
+}
+footer ul {
+  position: absolute;
+  left: 400px;
+  top: 60px;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
+}
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .icon {
+  position: absolute;
+  right: 400px;
+  top: 70px;
+}
+footer .icon i {
+  color: #fff;
+  margin: 0 20px;
+}
+footer .icon p {
+  display: inline-block;
+  word-spacing: 5px;
+  color: #fff;
+}
+footer .qizil {
+  position: absolute;
+  right: 70px;
+  top: -55px;
 }
 
 /*# sourceMappingURL=style.css.map */
