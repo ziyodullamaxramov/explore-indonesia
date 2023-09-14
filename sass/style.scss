@@ -213,3 +213,31 @@ aside{
         }
     }
 }
+.video{
+    position: relative;
+    background-color: black;
+    .huggo{
+        opacity: 60%;
+        width: 1899px;
+    }
+    h2{
+        position: absolute;
+        top: 120px;
+        left: 500px;
+        width: 900px;
+        color: #fff;
+        text-align: center;
+        font-size: 37px;
+    }
+    .player{
+        position: absolute;
+        width: 900px;
+        left: 500px;
+        top: 320px;
+    }
+    .previews{
+        position: absolute;
+        left: 350px;
+        top: 1050px;
+    }
+}

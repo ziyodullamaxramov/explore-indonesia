@@ -378,4 +378,33 @@ aside .explore .strelka {
   border-radius: 50px;
 }
 
+.video {
+  position: relative;
+  background-color: black;
+}
+.video .huggo {
+  opacity: 60%;
+  width: 1899px;
+}
+.video h2 {
+  position: absolute;
+  top: 120px;
+  left: 500px;
+  width: 900px;
+  color: #fff;
+  text-align: center;
+  font-size: 37px;
+}
+.video .player {
+  position: absolute;
+  width: 900px;
+  left: 500px;
+  top: 320px;
+}
+.video .previews {
+  position: absolute;
+  left: 350px;
+  top: 1050px;
+}
+
 /*# sourceMappingURL=style.css.map */
